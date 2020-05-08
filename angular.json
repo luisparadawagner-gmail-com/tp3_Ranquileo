@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "tp3-ranquileo"
+    }
+  },
+  "defaultProject": "tp3-ranquileo",
+  "cli": {
+    "analytics": false
+  }
 }
