@@ -41,11 +41,11 @@ export class SaludComponent implements OnInit {
 		this.pacienteForm.value();
 
 		this.pacienteForm.setValue({
-			nombre: 'Diego',
-			apellido: 'Maradona',
-			edad: 59,
+			nombre: 'Maximiliano',
+			apellido: 'Ranquileo',
+			edad: 30,
 			direccion: {
-				calle: 'Perez'
+				calle: 'Godoy'
 			},
 			telefonos: [ '' ]
 		});
