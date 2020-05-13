@@ -32,7 +32,7 @@
     </div>
 
     <div formGroupName="direccion" class="direccion">
-        <h3>Dirección</h3>
+        <p>Dirección</p>
         <label>Calle
             <input type="text" formControlName="calle">
         </label>
@@ -42,7 +42,7 @@
     </div>
 
     <div formArrayName="telefonos">
-        <h3>Teléfonos</h3>
+        <p>Teléfonos</p>
         <div *ngFor="let telefono of telefonos.controls; let i = index" class="telefono">
             <label>
                 Teléfono <input type="text" [formControlName]="i">
